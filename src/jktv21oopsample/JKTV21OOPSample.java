@@ -40,7 +40,12 @@ public class JKTV21OOPSample {
         book2.addAuthor(author3);                   // using method addAuthor in class book
         // book2.setAuthors(authors2);                 // set value for variable            // without method addAuthor in class book
         System.out.println(book2.toString());       // print out. toString - method from class Book
+        //---------------------------------------------------------------------------------------------
         
-    }
-    
-}
+        // using class App. All above can be transferred to the class App.
+        App app = new App();
+        app.run();
+        
+    }   // public static void main(String[] args)
+
+}   // public class JKTV21OOPSample

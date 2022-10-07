@@ -17,6 +17,7 @@ public class Book {
     public void setAuthors(Author[] authors) {
         this.authors = authors;
     }
+    
     public void addAuthor(Author author){
         // create copy of authors with extra cell
         Author[] newAuthor = Arrays.copyOf(authors, authors.length + 1);
