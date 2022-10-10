@@ -27,9 +27,9 @@ public class Author {
     public String toString() {
         return "Author{" 
                 + "name=" 
-                + name 
+                + getName() 
                 + ", lastname=" 
-                + lastname + '}';
+                + getLastname() + '}';
     }
     
 }
